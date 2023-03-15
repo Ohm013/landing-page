@@ -11,7 +11,20 @@
     color:whitesmoke ; 
     font-size: 19px ;
     font-weight: 700 ;
+}
 
+.first-box {
+    display: flex ;
+    flex-direction: row-reverse ;
+    justify-content: center ;
+    background-color: rgb(40, 40, 56);
+    
+
+}
+
+.right-side img {
+    width: auto ;
+    height: 200px ;
 }
 
 
