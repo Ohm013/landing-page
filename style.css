@@ -87,21 +87,53 @@ img {
     font-weight: bold ;
 }
 
-
 .fourth-box {
     padding: 50px ;
     display: flex ;
     justify-content: center ;
     height: 100px ;
+}
+
+.Sign-up {
+    color: #E5E7EB ;
+    background-color: #3882F6  ;
+    border-style: solid ;
+    border-color: white; 
+    border-radius: 5px ;
     
 }
 
+.left {
+    display: flex ;
+    flex-direction: row ;
+    
+}
+
+.right {
+    display: flex ;
+    flex-direction: row ;
+    justify-content: flex-end ;
+    align-items: center ;
+
+}
 .info {
     display: flex ;
-    justify-content: center ;
+    flex-direction: column;
     width: 900px ;
     background-color: #3882F6 ;
     border-radius: 10px ;
+    color: white ;
+}
+
+.footer {
+    background-color: rgb(40, 40, 56) ;
+    display: flex;
+    justify-content: center ;
+    margin: 0px ;
+    color: white ;
+    height: 100px ;
+    align-items: center ;
+    
 }
 a {
     text-decoration: none ;
